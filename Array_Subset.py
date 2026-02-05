@@ -2,7 +2,7 @@ class Solution:
     def isSubset(self, a, b):
         freq = {}
         for i in a:
-            freq[i]=freq.get(i,0)+1;
+            freq[i]=freq.get(i,0)+1
         
         for i in b:
             if freq.get(i,0)==0:
